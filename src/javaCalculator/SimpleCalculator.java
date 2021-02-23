@@ -37,7 +37,13 @@ public class SimpleCalculator {
 	return num1 * num1;
 	}
 
-	
+	public static int factorial(int num1) {
+		int answer = 1;
+		for(int i =0;i<num1;i++) {
+			answer = answer * num1;
+		}
+		return answer;
+	}
 	}
 
 	
